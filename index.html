@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Titre du Site-->
+    <title>Wild Eats</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Photos/favicon.ico.ico" />
+    <!--Lien CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!--Lien JS-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NavBarre-->
+    <header class="navbarre_header">
+      <ul>
+        <li><img class="navbarre_logo" src="Photos/Logo-rond.png" /></li>
+        <li class="navbarre_phraseaccroche">
+          La ville des Rois, des Reines et des restaurants
+        </li>
+      </ul>
+    </header>
+
+    <!--Carrousel-->
+
+    <section class="slider-wrapper">
+      <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+      <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+      <ul class="slides-container" id="slides-container">
+        <li class="slide">
+          <article>
+            <aside></aside>
+            <div>
+              <img src="img/Mizzica.png" class="img-carrousel" />
+              <p class="nom-restaurant-carrousel">La Mizzica 51avenue Jean Jaurès</p>
+              <h4 class="titre-elem-carrousel">Les nouveautés</h4>
+            </div>
+            <aside></aside>
+          </article>
+        </li>
+        <li class="slide">
+          <article>
+            <aside></aside>
+            <div>
+              <img src="img/Marcel-Jane.png" class="img-carrousel" />
+              <p class="nom-restaurant-carrousel">Marcel&Jane 99rue Gambetta</p>
+              <h4 class="titre-elem-carrousel">Les nouveautés</h4>
+            </div>
+            <aside></aside>
+          </article>
+        </li>
+        <li class="slide">
+          <article>
+            <aside></aside>
+            <div>
+              <img src="img/Zwiebiel.png" class="img-carrousel" />
+              <p class="nom-restaurant-carrousel">Zwiebiel 103rue de Neufchâtel</p>
+              <h4 class="titre-elem-carrousel">Les nouveautés</h4>
+            </div>
+            <aside></aside>
+          </article>
+        </li>
+        <li class="slide">
+          <article>
+            <aside></aside>
+            <div>
+              <img src="img/Un-Truck-De-Food.png" class="img-carrousel" />
+              <p class="nom-restaurant-carrousel">Un Truck De Food</p>
+              <h4 class="titre-elem-carrousel">La légende du Food-Truck</h4>
+            </div>
+            <aside></aside>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <script src="./carrousel.js"></script>
+    <br />
+    <form>
+      <div class="button_cat">
+        <div class="button-categorie" id="veggie">
+            <img src="./img/buttons_1.png" alt="veggie" width="200" />
+        </div>
+        <div class="button-categorie" id="italien">
+          <img src="./img/buttons_2.png" alt="italien" width="200" />
+        </div>
+        <div class="button-categorie" id="français">
+          <img src="./img/buttons_3.png" alt="français" width="200" />
+        </div>
+      </div>
+    </form>
+
+    <!--Barre de recherche-->
+    <form>
+      <div class="search-box">
+        <div class="search-icon">&#x1F50D;</div>
+        <input class = "search-bar"/>
+        <button class="button-search"></button>
+      </div>
+    </form>
+
+    <section class="list-resto"></section>
+    <script src="./cards.js"></script>
+    <footer>
+      <section class="footer">
+        <img src="./Photos/Logo-rond.png" alt="logo-footer">
+        <p>2023 -Wild Eats (Wild Code School ) &copy;</p>
+      </section>
+    </footer>
+  </body>
+</html>

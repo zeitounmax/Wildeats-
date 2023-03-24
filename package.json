@@ -1,0 +1,15 @@
+{
+  "name": "projet-1-wild-eats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate":   "html-validator index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "w3c-html-validator": "^1.3.2"
+  }
+}
