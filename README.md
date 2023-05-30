@@ -11,11 +11,6 @@ Consists of referencing the best restaurants around the campus.
 - CSS
 - JavaScript
 
-## Website : 
-https://zeitounmax.github.io/Wildeats-/ 
-## Repository :
-https://github.com/zeitounmax/Wildeats-
-
 
 
 
